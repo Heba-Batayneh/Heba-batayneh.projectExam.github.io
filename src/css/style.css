@@ -312,7 +312,7 @@ section.sign-page .login-info .buttons .submit {
 /**********************************media******************************
 **********************************************************************/
 
-@media (min-width:991px) and (max-width:1330px) {
+@media (min-width:991px) and (max-width:1199px) {
     #carousel-featured .carousel-item .imag img {
         height: 430px !important;
     }
@@ -330,15 +330,21 @@ section.sign-page .login-info .buttons .submit {
         margin: 40px 0;
         padding: 0;
     }
-
     section.contacts .info {
         margin: 0;
     }
-
-    .row{
+    .row {
         margin: 0;
     }
-
+    section.trip h1.turkya {
+        margin: 80px 190px 15px;
+    }
+    section.trip h1 {
+        margin: 80px 225px 15px;
+    }
+    .custom-carousel-indicators-primary {
+        right: 72%;
+    }
 }
 
 @media (min-width:767px) and (max-width:991px) {
@@ -366,10 +372,15 @@ section.sign-page .login-info .buttons .submit {
     }
     section.trip h1.turkya {
         font-size: 40px;
-        margin: 100px 5px 15px;
+        margin: 80px 70px 15px;
+    }
+    section.trip h1 {
+        font-size: 40px;
+        margin: 80px 110px 15px;
     }
     section.trip .about-trip h5 {
         font-size: 20px;
+        margin: 10px;
     }
     #carousel-featured .carousel-item img {
         height: 400px;
@@ -391,16 +402,14 @@ section.sign-page .login-info .buttons .submit {
         right: -90px !important;
     }
     section.tour h3 {
-        font-size: 23px;
+        font-size: 22px;
     }
     .row {
         margin: 0;
     }
-
     section.contacts .info {
         margin: 0;
     }
-
 }
 
 @media (min-width:575px) and (max-width:767px) {
@@ -438,20 +447,16 @@ section.sign-page .login-info .buttons .submit {
         width: 400px;
         height: 200px;
     }
-    section.trip h1.turkya {
-        font-size: 25px;
-        margin: 100px 5px 15px;
-    }
-    section.trip h1 {
-        font-size: 25px;
+    section.trip h1.turkya, section.trip h1 {
+        font-size: 33px;
         margin: 100px 5px 15px;
     }
     section.trip .about-trip h5 {
         font-size: 20px;
-        margin: 10px 5px 0;
+        margin: 10px 10px 0;
     }
-    #carousel-featured .carousel-item img {
-        height: 300px;
+    #carousel-featured .carousel-item img, .turkya1 #carousel-featured .carousel-item img {
+        height: 400px;
     }
     .custom-carousel-indicators-primary {
         display: none;
@@ -487,32 +492,28 @@ section.sign-page .login-info .buttons .submit {
         font-size: 28px;
         margin-right: 5px;
     }
-
     section.contacts .info {
         margin: 0;
     }
-
 }
 
 @media (max-width:575px) {
-
     .row {
         margin: 0;
         padding: 0;
     }
-
     .border-between section {
         margin: 40px 0;
     }
-    section.trip h1 {
-        font-size: 25px;
-        margin: 100px 5px 15px;
+    section.trip h1.turkya, section.trip h1 {
+        font-size: 28px;
+        margin: 80px 30px 15px;
     }
     section.trip .about-trip h5 {
         font-size: 18px;
         margin: 10px 5px 0;
     }
-    #carousel-featured .carousel-item img {
+    #carousel-featured .carousel-item img, .turkya1 #carousel-featured .carousel-item img {
         height: 300px;
     }
     section.trip .col-12 {
@@ -542,9 +543,10 @@ section.sign-page .login-info .buttons .submit {
         font-size: 25px;
         margin-right: 5px;
     }
-
     section.contacts .info {
         margin: 0;
     }
-
+    #carousel-featured {
+        margin: 10px 0;
+    }
 }
