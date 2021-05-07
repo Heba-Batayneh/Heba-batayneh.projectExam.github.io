@@ -1,0 +1,460 @@
+/* اضافة نوع خط واضافة الروابط لهذا الخط */
+
+@font-face {
+    font-family: "cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+/* ازالة الحاشية للحاوية التي تحوي الشريط العلوي */
+
+.custom-navbar .container {
+    padding: 0;
+}
+
+/* حاشية للأعلى ولليسار للاسم والصورة */
+
+.custom-navbar .navbar-brand {
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+}
+
+.custom-navbar .navbar-header .navbar-brand:hover, .custom-navbar .navbar-header .navbar-brand:active, .custom-navbar .navbar-header .navbar-brand:focus, .custom-navbar .navbar-header .navbar-brand:active:focus, .custom-navbar .navbar-header .navbar-brand:active:hover {
+    cursor: pointer;
+}
+
+
+.custom-navbar .navbar-header .navbar-brand img {
+    width: 40px;
+}
+
+/* تنسيقات اقسام الصفحة الموجود في الشريط العلوي */
+
+.custom-navbar ul.navbar-nav {
+    margin: auto;
+}
+
+/* التنسيقات المطبقة على الفيديو ليصبح بحجم الصفحة */
+
+.overlay0 video {
+    position: fixed;
+    /* جعل الفيديو موقعه ثابت لا يتغير */
+    min-width: 100%;
+    /*ملئ الفيديو بحجم الصفحة */
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    mask-repeat: repeat;
+    z-index: -1;
+    /* لجعل الفيديو في خلفيه الصفحة*/
+}
+
+/************************* تنسيقات عامه *****************************
+**********************************************************************/
+
+.overlay {
+    background-color: rgba(78, 84, 87, 0.4);
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+/************************* نهاية تنسيقات عامه *****************************
+****************************************************************************/
+
+/*******************************about section***********************************
+********************************************************************************/
+
+section.about .overlay {
+    background-color: rgba(58, 63, 66, 0.4);
+    z-index: 0;
+    width: 100%;
+    margin: auto;
+}
+
+section.about .text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.about .text h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+/*******************************END about section***********************************
+************************************************************************************/
+
+/****************************services section*************************
+**********************************************************************/
+
+section.services .col-md-6 {
+    margin-bottom: 10px;
+}
+
+section.services .col-md-6 .icon {
+    color: #792a72;
+    margin-bottom: 5px !important;
+}
+
+section.services .icon1 {
+    margin-bottom: -5px !important;
+}
+
+
+section.services p {
+    font-weight: 900;
+    color:#792a72;
+    transform: rotateY(45deg);
+    font-size: larger;
+}
+
+/****************************END services section*************************
+**************************************************************************/
+
+/************************tour section*********************
+**********************************************************/
+
+section.tour h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+section.tour p {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    margin-right: 38px !important;
+}
+/************************END tour section*********************
+**************************************************************/
+
+/************************contacts section*********************
+**************************************************************/
+
+section.contacts {
+    margin-bottom: 0 !important;
+}
+
+
+section.contacts .info {
+    text-align: right;
+    margin-right: 40px;
+}
+
+section.contacts h3:before {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(46, 89, 124, 0.5);
+}
+/************************END contacts section*********************
+******************************************************************/
+
+/************************footer section***********************
+**************************************************************/
+
+.footer .text {
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.footer #social-icons {
+    float: left;
+    position: relative;
+    line-height: 50px;
+}
+
+.footer #social-icons a {
+    margin: 0 2px;
+    font-size: 15px;
+}
+
+/************************END footer section*******************
+**************************************************************/
+
+/************************************************************
+*************************************************************
+*******************تنسيقات صفحات الرحلات********************
+*************************************************************
+*************************************************************/
+
+section.trip .col-12 {
+    padding-left: 0;
+}
+
+section.trip .overlay1 {
+    background-image: url(../images/trip2.png);
+    background-position: center center;
+    background-size: cover;
+    z-index: -3;
+}
+
+section.trip .overlay3 {
+    background-image: url(../images/trip1.png);
+    background-position: center center;
+    background-size: cover;
+    z-index: -3;
+}
+
+section.trip .overlay2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    background-position: center center;
+    background-size: cover;
+    z-index: 20;
+}
+
+/********************about trip*********************
+****************************************************/
+
+
+section.trip h1 {
+    color: #fafafa;
+    margin: 80px 320px 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.trip .about-trip h5 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+
+
+/********************END about trip*********************
+********************************************************/
+
+/*************تنسيقات اضافية لرحلة تركيا **************
+*********************************************************/
+
+section.trip h1.turkya {
+    margin: 80px 270px 15px;
+}
+
+/********************gallery for trip*********************
+**********************************************************/
+
+/* تنسيقات خاصة بالصور الصغيرة التي تنقل بين الشرائح */
+
+section.trip .gallrey {
+    margin: 30px 0;
+}
+
+.custom-carousel-indicators-primary {
+    top: 43px;
+    right: 66%;
+}
+
+.custom-carousel-indicators-primary img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #DDDDDB;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+
+
+#carousel-featured {
+    margin: 20px 0;
+}
+
+/********************END gallery for trip*********************
+**************************************************************/
+
+/************************************************************
+*************************************************************
+*******************تنسيقات صفحة انشاء الحساب***************
+*************************************************************
+*************************************************************/
+
+
+.custom-navbar .clearfix {
+    font-size: 20px;
+}
+
+section.sign-page {
+    margin: 100px 0px  100px;
+    direction: rtl;
+}
+
+
+section.sign-page .buttons {
+    margin: 15px 30px;
+    display: flex;
+}
+
+
+section.sign-page form .error {
+    color: red;
+}
+
+#carousel-featured .carousel-item .imag img {
+    height: 400px !important;
+}
+
+/*******************************login page تنسيقات اضافيه على********************
+***********************************************************************************/
+
+section.sign-page .login-info {
+    margin-top: 80px;
+    direction: rtl;
+}
+
+section.sign-page .login-info .buttons .submit {
+    width: 500px;
+    height: 40px;
+}
+
+/**********************************media******************************
+**********************************************************************/
+@media (min-width:991px) and (max-width:1330px){
+    #carousel-featured .carousel-item .imag img {
+        height: 430px !important;
+    }
+
+    section.sign-page .login-info .buttons .submit {
+        width: 350px;
+    }
+}
+
+
+@media (min-width:767px) and (max-width:991px) {
+    nav .navbar-brand h1 {
+        font-size: 25px !important;
+        margin-right: 15px;
+    }
+
+    section.about .text h1 {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .fa-5x {
+        font-size: 62px;
+    }
+
+    section.services p {
+        font-size: 30px;
+    }
+
+    .border-between section {
+        margin: 40px 0;
+    }
+    iframe {
+        width: 600px;
+        height: 200px;
+    }
+
+    section.trip h1.turkya {
+        font-size: 40px;
+        margin: 100px 5px 15px;
+    }
+
+    section.trip .about-trip h5 {
+        font-size: 20px;
+    }
+
+    #carousel-featured .carousel-item img {
+        height: 400px;
+    }
+
+    .custom-carousel-indicators-primary {
+        display: none !important;
+    }
+
+    section.trip .gallrey .carousel-item .col-12 {
+        padding: 0;
+    }
+    section.trip .col-12 {
+        padding: 0;
+    }
+
+    section.sign-page .login-info {
+        margin-top: 0;
+    }
+
+
+}
+
+@media (max-width:767px) {
+
+    nav .navbar-brand h1 {
+        font-size: 25px !important;
+        margin-right: 10px;
+    }
+    .custom-navbar .clearfix {
+        font-size: 15px;
+    }
+    .border-between section {
+        margin: 40px 0;
+    }
+    .titel {
+        font-size: 20px;
+    }
+    .titel h1 {
+        font-size: 33px;
+    }
+    section.about .text h1 {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    .fa-5x {
+        font-size: 62px;
+    }
+    section.services p {
+        font-size: 25px;
+    }
+    iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+    section.trip h1.turkya {
+        font-size: 25px;
+        margin: 100px 5px 15px;
+    }
+
+    section.trip .about-trip h5 {
+        font-size: 20px;
+    }
+
+    #carousel-featured .carousel-item img {
+        height: 300px;
+    }
+
+    .custom-carousel-indicators-primary {
+        display: none;
+    }
+
+    section.trip .gallrey .carousel-item .col-12 {
+        padding: 0;
+    }
+    section.trip .col-12 {
+        padding: 0;
+    }
+
+    #carousel-featured .carousel-item .imag img {
+        height: 315px !important;
+    }
+
+    section.sign-page .login-info .buttons .submit {
+        width: 240px;
+    }
+
+    section.sign-page .login-info {
+        margin-top: 0;
+    }
+
+}

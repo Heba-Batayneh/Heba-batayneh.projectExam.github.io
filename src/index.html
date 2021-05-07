@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="شركة سياحية">
+    <title>سفرني</title>
+    <link rel="icon" href="./images/logo.png">
+    <script type="text/html" src="{require('./index.js')}"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="overlay0">
+            <video autoplay muted loop poster="./images/travel.jpg">
+                <!-- صورة توضع في حال ما اشتغل الفيديو او ريثما يشتغل الفيديو -->
+                <source src="./video/y2mate.com - مقطع فيديو سماء ما فوق الغيوم مع الشمس  طبيعة للمونتاج HD_1080p.mp4"
+                    type="video/mp4">
+            </video>
+
+            <!--الشريط العلوي-->
+            <section class="row">
+                <nav class="navbar custom-navbar navbar-expand-lg fixed-top navbar-light">
+                    <!-- navbar-expand-lg حتى يتم وضع العناصر جميعها بجانب بعضها البعض -->
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <div class="clearfix">
+                                    <!-- اضافة الزر للقائمة يظهر في حال الشاشات الصغيرة -->
+                                    <button class="navbar-toggler btn btn-icon collapsed float-right" data-toggle="collapse"
+                                        data-target="#navbar-collapsed-menu">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+
+                                    <!-- صورة طائرة يتم عند النقر عليها الذهاب للصفحة الرئيسية للموقع -->
+                                    <a href="index.html" class="navbar-brand float-left">
+                                        <h1>ســ</h1>
+                                        <img src="./images/logo.png" alt="سفرني">
+
+                                        <h1 class="mr-auto">ـفرنـي</h1>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-collapsed-menu">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item first-list-element">
+                                    <a class="nav-link" href="#about"> من نحن </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll" href="#services"> خدماتنا </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll" href="#tour">الجولات السياحية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll" href="#contacts">تواصل معنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <a class="nav-link login float-left" href="./sign.html">
+                            تسجيل الدخول
+                        </a>
+                    </div>
+                </nav>
+            </section>
+            <!--نهاية الشريط العلوي-->
+
+            <div class="border-between">
+                <div class="container-fluid bodypage">
+
+                    <!-- بداية النبذة التعريفية  -->
+                    <section class="about" id="about">
+                        <div class="overlay">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="text">
+                                        <h1> الشركة السياحية الأفضل في الوطن العربي </h1>
+                                        <p>
+                                            هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا
+                                            فنحن هنا لنساعدك على إيجاد كل ما تحتاج له.
+                                            إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل
+                                            الأوقات فقد وجدت طلبك.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- نهاية النبذة التعريفية  -->
+
+                    <!-- بداية خدمات الشركة  -->
+                    <section class="services" id="services">
+                        <div class="overlay">
+                            <div class="contanier">
+                                <div class="titel">
+                                    <h1> الخدمات التي نقدمها لك </h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <i
+                                            class="icon fas fa-house-user fa-5x"></i>
+                                        <h3> حجز سكن </h3>
+                                        <p>
+                                            نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة
+                                            من
+                                            جميع
+                                            الخدمات.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="icon icon1 fas fa-car-alt fa-5x"></i>
+                                        <h3>حجز سيارة</h3>
+                                        <p>
+                                            نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادي.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="icon fas fa-route fa-5x"></i>
+                                        <h3> جولات سياحية </h3>
+                                        <p>
+                                            جولات سياحية خاصة مع أمهر السائقين
+                                            كما نقدم جولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين
+                                            الذين يُجيدون اللغة العربية ولإنجليزية.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <i class="icon fas fa-shuttle-van fa-5x"></i>
+                                        <h3> استقبال من المطار </h3>
+                                        <p>
+                                            نقدم لكم خدمة الاستقبال من المطار وتوديعكم في المطار بحيث يكون
+                                            مندوبنا متواجد دائمًا في خدمتكم أثناء وصولكم أو ذهابكم للمطار مع أفضل وسائل
+                                            النقل.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- نهاية خدمات الشركة  -->
+
+                    <!-- الجولات السياحية التي تقدمها الشركه  -->
+                    <section class="tour" id="tour">
+                        <div class="overlay">
+                            <div class="container">
+                                <div class="titel">
+                                    <h1>الجولات السياحية</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./images/trip2.png" alt="trip1">
+                                        <h3>رحلة إلى الأهرامات في مصر</h3>
+                                        <div class="clearfix">
+                                            <p class="float-right"> بسعر شامل :
+                                                <span> 250$</span>
+                                            </p>
+                                            <button class="btn float-left">
+                                                <a href="./tripOne.html" class="btn detail">
+                                                    تفاصيل أكثر عن الرحلة
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./images/trip1.png" alt="trip2">
+                                        <h3>رحلة إلى مدينة إسطنبول في تركيا</h3>
+                                        <div class="clearfix">
+                                            <p class="float-right"> بسعر شامل :
+                                                <span> 450$</span>
+                                            </p>
+                                            <button class="btn float-left">
+                                                <a href="./tripTwo.html" class="btn detail">
+                                                    تفاصيل أكثر عن الرحلة
+                                                </a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- نهاية الجولات السياحية  -->
+
+
+                    <!-- بداية قسم تواصل معنا -->
+                    <section class="contacts" id="contacts">
+                        <div class="overlay">
+                            <div class="titel">
+                                <h1>تواصل معنا</h1>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="map col-12">
+                                        <div id="map" class="map">
+                                            <!-- <img src="images/googlemap.png" style="width:100%;height: 200px;"/> -->
+                                            <!--لاضافة لوكيشين متفاعل على الصفحة -->
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27063.36428662663!2d35.89426335646879!3d32.017266147298336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c9f9ed5db86ed%3A0xda30eb1d7d001735!2z2KfZhNis2KfZhdi52KnYjCDYudmF2ZHYp9mG!5e0!3m2!1sar!2sjo!4v1620058809727!5m2!1sar!2sjo"
+                                                width="900" height="200" style="border:0;" allowfullscreen=""
+                                                loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="info col-12" id="image-1">
+                                        <h3>
+                                            معلومات عن شركتنا
+                                        </h3>
+                                        <ul class="list-unstyled information">
+                                            <!--  حتى لا يتم وضع نقاط التعداد للقائمة والحشوة الداخليه للعنصر -->
+                                            <li>
+                                                <i class="fas fa-map-marker" aria-hidden="true"></i>
+                                                المملكة الأردنية الهاشمية - عمان
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-phone"></i>
+                                                962780000000
+                                                <span> + </span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-envelope-square"></i>
+                                                travel@info.com
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- info -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- نهاية قسم تواصل معنا  -->
+                </div>
+            </div>
+
+            <!-- جميع الحقوق محفوظة  -->
+            <div id="footer-copyright-social" class="col-12 footer">
+                <div class="container">
+                    <div class="clearfix">
+                        <div id="copyright" class="float-right text">
+                        </div>
+                        <div id="social-icons" class="float-left">
+                            <a href="https://www.facebook.com">
+                                <i class="fab fa-facebook-square fa-lg"></i>
+                            </a>
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-twitter-square fa-lg"></i>
+                            </a>
+                            <a href="https://www.instagram.com">
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- نهاية جميع الحقوق محفوظة  -->
+        </div>
+
+    </div>
+</body>
+
+</html>

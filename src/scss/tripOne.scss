@@ -1,0 +1,23 @@
+@import "./_variable" ;
+
+
+
+section.trip .about-trip h5 span {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color:$purple;
+    line-height: 30px;
+}
+
+.custom-carousel-indicators-primary img.active {
+    border-color:$purple;
+}
+
+/* تحديد ارتفاع الصور */
+
+#carousel-featured .carousel-item img {
+    height: 500px;
+    border: 5px solid $purple;
+}

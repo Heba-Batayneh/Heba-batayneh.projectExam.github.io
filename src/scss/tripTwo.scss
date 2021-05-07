@@ -1,0 +1,23 @@
+@import "./_variable" ;
+
+
+
+section.trip .about-trip h5 span.turkya {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color:$blue !important;
+    line-height: 30px;
+}
+
+.turrkya img.active {
+    border-color:$blue;
+}
+
+/* تحديد ارتفاع الصور */
+
+.turkya1 #carousel-featured .carousel-item img {
+    height: 500px;
+    border: 5px solid $blue;
+}

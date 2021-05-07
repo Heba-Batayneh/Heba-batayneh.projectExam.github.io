@@ -1,0 +1,199 @@
+@import "./_variable" ;
+
+// /* تنسيق اسم الموقع */
+
+.custom-navbar .navbar-header .navbar-brand h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: $baby-blue;
+}
+
+/* تنسيق زر تسجيل الدخول*/
+
+nav .login {
+    white-space: nowrap;
+    font-weight: bold;
+    border: 1px solid $baby-blue;
+    border-radius: 3px;
+    position: relative;
+}
+
+.navbar-nav li.nav-item a {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $baby-blue !important;
+}
+
+.navbar-nav li.nav-item a:hover, .navbar-nav li.nav-item a:focus, .navbar-nav li.nav-item a:active, .navbar-nav li.nav-item a:active:hover, .navbar-nav li.nav-item a:active:focus {
+    background-color: $baby-blue;
+    color: $light-grey !important;
+}
+
+
+.nav {
+    border-bottom: 2px solid $dark-blue;
+}
+
+
+
+section.trip .about-trip {
+    border-top: 2px solid $dark-blue;
+    border-bottom: 2px solid $dark-blue;
+    border-right: 2px solid $dark-blue;
+    width: 100%;
+}
+
+.border-between section {
+    border-bottom: 2px solid $dark-blue;
+    border-top: 2px solid $dark-blue;
+    text-align: center;
+    margin: 40px 150px;
+}
+
+.info ul li svg {
+    margin-left: 10px;
+    border: 1px solid $light-grey;
+    color: $blue;
+    width: 25px !important;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    padding: 5px;
+}
+
+section.contacts .map {
+    border-color: $blue;
+    margin-bottom: 10px;
+}
+
+section.tour .detail:focus, section.tour .detail:hover, section.tour .detail:active, section.tour .detail:active:hover, section.tour .detail:active:focus {
+    color: $blue;
+    border-color: $blue;
+    
+}
+
+
+section.tour img {
+    margin: 20px 0 12px;
+    width: 85%;
+    border: 2px solid $blue;
+    
+}
+
+
+section.sign-page .buttons .submit {
+    background-color: inherit;
+    border-radius: 3px;
+    color:$purple;
+    border-color:$purple;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section.sign-page .buttons .submit:hover, section.sign-page .buttons .submit:focus, section.sign-page .buttons .submit:active, section.sign-page .buttons .submit:active:hover, section.sign-page .buttons .submit:active:focus {
+    background-color:$purple;
+    color: $white;
+    border-color: $white;
+    box-shadow:$purple;
+}
+
+
+section.sign-page label {
+    color:$purple;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+section.sign-page .buttons a {
+    padding-right: 10px;
+    color:$purple;
+    font-weight: bold;
+    font-style: 15px;
+}
+
+
+body {
+    font-family: "cairoFont", Arial, Helvetica, sans-serif;
+    background-color: $light-grey;
+    line-height: 1.5;
+}
+
+
+/* تنسيق الشريط العلوي */
+
+.custom-navbar {
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    background-color: $light-grey;
+}
+
+
+.titel {
+    font-weight: 900;
+    color: $light-grey;
+    margin-bottom: 15px !important;
+}
+
+
+section.about .text p {
+    font-size: 22px;
+    color: $light-grey;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+
+section.services h3 {
+    color: $light-grey;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+section.tour p span {
+    color: $light-grey;
+    border: 1px solid $light-grey;
+    border-radius: 5px;
+    padding: 0 2px;
+}
+
+
+section.tour .detail {
+    color: $light-grey;
+    border-color: $light-grey;
+    position: relative;
+    bottom: 12px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+
+
+section.contacts .info h3 {
+    color: $light-grey;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+section.contacts .info li {
+    color: $light-grey !important;
+    font-size: 15px;
+    margin: 5px 0;
+    font-weight: bolder;
+}
+
+
+.footer {
+    background-color: $light-grey;
+    height: 50px !important;
+}
+
+section.trip h1 {
+    color: $light-grey;
+    margin: 80px 320px 15px;
+    font-weight: bold;
+    text-align: center;
+}
