@@ -521,6 +521,7 @@ section.sign-page .login-info .buttons .submit {
     }
     section.tour .detail {
         margin: 0;
+        font-weight: 800;
     }
     iframe {
         width: 400px;
@@ -549,4 +550,5 @@ section.sign-page .login-info .buttons .submit {
     #carousel-featured {
         margin: 10px 0;
     }
+
 }
