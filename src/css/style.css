@@ -330,6 +330,15 @@ section.sign-page .login-info .buttons .submit {
         margin: 40px 0;
         padding: 0;
     }
+
+    section.contacts .info {
+        margin: 0;
+    }
+
+    .row{
+        margin: 0;
+    }
+
 }
 
 @media (min-width:767px) and (max-width:991px) {
@@ -387,6 +396,11 @@ section.sign-page .login-info .buttons .submit {
     .row {
         margin: 0;
     }
+
+    section.contacts .info {
+        margin: 0;
+    }
+
 }
 
 @media (min-width:575px) and (max-width:767px) {
@@ -473,9 +487,15 @@ section.sign-page .login-info .buttons .submit {
         font-size: 28px;
         margin-right: 5px;
     }
+
+    section.contacts .info {
+        margin: 0;
+    }
+
 }
 
 @media (max-width:575px) {
+
     .row {
         margin: 0;
         padding: 0;
@@ -522,4 +542,9 @@ section.sign-page .login-info .buttons .submit {
         font-size: 25px;
         margin-right: 5px;
     }
+
+    section.contacts .info {
+        margin: 0;
+    }
+
 }
