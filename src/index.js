@@ -11,7 +11,6 @@ import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
-import 'wow.js';
 
 
 $( function(){
@@ -32,19 +31,6 @@ $( function(){
     // لتغير التاريخ بشكل تلقائي بالصحة في كل سنة جديدة
     $('#copyright').text("جميع الحقوق محفوظة للشركة سنة " + new Date().getFullYear());
 
-
-        // ‫ إلغاء الحركة في شاشات الجوال وتهيئة مكتبة wow  للعمل
-        const WOW = require('wow.js');
-
-        if ($(window).width() >= 1025) {
-            window.wow = new WOW.WOW({
-                live: false
-            });
-        
-            window.wow.init({
-                offset: 50,
-            });
-        }
 
         $("#commentForm").validate(); //للتحقق من المدخلات او من الحقول المطلوب ملؤها 
 
